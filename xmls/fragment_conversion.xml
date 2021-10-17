@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConversionFragment"
+    android:background="@color/Chinese_Silver">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Spinner
+        android:id="@+id/quantities"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/inputValue"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:background="@color/Linen"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/black"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/inputType"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="240dp" />
+
+    <Spinner
+        android:id="@+id/outputType"
+        android:layout_width="149dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="240dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="30dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:text="="
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="30sp"/>
+</FrameLayout>
